@@ -7,6 +7,6 @@
   ```
 2. Запустить контейнер. Примонтировав папку с данными `/data`
   ```
-  docker run -v /data:/data sibur:latest
+  docker run -v <dir_path>/output_data:/output_data sibur:latest
   ```
-3. В примонтированной папке `/data` найти решения `first_track_result.csv` и `second_track_result.csv` для первой и второй задачи соответсвенно.
+3. В примонтированной папке `/output_data` найти решения `first_track_result.csv` и `second_track_result.csv` для первой и второй задачи соответсвенно.
